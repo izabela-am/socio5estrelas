@@ -1,7 +1,7 @@
 # WIP
 ---
 # socio5estrelas
-Get data on the socio5estremas program
+Get data on the socio5estrelas program
 ---
 TODO:
 - [] Docs
