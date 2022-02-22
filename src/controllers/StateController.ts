@@ -19,13 +19,13 @@ export class StateController {
     this.getTop10States = new GetTop10States(getProgramData);
   }
 
-  async all(request: Request, response: Response): Promise<Response> {
+  all = async (request: Request, response: Response): Promise<Response> => {
     const data = await this.getAllStates.run();
 
     return response.status(200).send(data);
   }
 
-  async top10(request: Request, response: Response): Promise<Response> {
+  top10 = async (request: Request, response: Response): Promise<Response> => {
     const data = await this.getTop10States.run();
 
     return response.status(200).send(data);

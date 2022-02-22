@@ -13,8 +13,8 @@ export class GetTop15Districts {
     rawData.map((district) => {
       data.push({
         name: district.description,
-        total: district.total,
-        percentage: district.totalRaw * 100,
+        total: district.totalRaw,
+        percentage: district.total * 100,
         updatedAt: res.updated_at
       });
     });

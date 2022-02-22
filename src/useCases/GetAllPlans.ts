@@ -13,8 +13,8 @@ export class GetAllPlans {
     rawData.map((plans) => {
       data.push({
         name: plans.description,
-        total: plans.total,
-        percentage: plans.totalRaw * 100,
+        total: plans.totalRaw,
+        percentage: plans.total * 100,
         updatedAt: res.updated_at
       });
     });

@@ -13,8 +13,8 @@ export class GetTop15Cities {
     rawData.map((city) => {
       data.push({
         name: city.description,
-        total: city.total,
-        percentage: city.totalRaw * 100,
+        total: city.totalRaw,
+        percentage: city.total * 100,
         updatedAt: res.updated_at
       });
     });

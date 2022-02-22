@@ -13,8 +13,8 @@ export class GetAllAgeGroups {
     rawData.map((ageGroup) => {
       data.push({
         name: ageGroup.description,
-        total: ageGroup.total,
-        percentage: ageGroup.totalRaw * 100,
+        total: ageGroup.totalRaw,
+        percentage: ageGroup.total * 100,
         updatedAt: res.updated_at
       });
     });

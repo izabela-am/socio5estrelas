@@ -13,8 +13,8 @@ export class GetTop10States {
     rawData.map((state) => {
       data.push({
         name: state.description,
-        total: state.total,
-        percentage: state.totalRaw * 100,
+        total: state.totalRaw,
+        percentage: state.total * 100,
         updatedAt: res.updated_at
       });
     });

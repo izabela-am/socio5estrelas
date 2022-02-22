@@ -13,8 +13,8 @@ export class GetPaymentMethods {
     rawData.map((paymentMethod) => {
       data.push({
         name: paymentMethod.description,
-        total: paymentMethod.total,
-        percentage: paymentMethod.totalRaw * 100,
+        total: paymentMethod.totalRaw,
+        percentage: paymentMethod.total * 100,
         updatedAt: res.updated_at
       });
     });

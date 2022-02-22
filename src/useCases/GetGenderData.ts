@@ -19,8 +19,8 @@ export class GetGenderData {
     rawData.map((gender) => {
       data.push({
         title: gender.description,
-        total: gender.total,
-        percentage: gender.totalRaw * 100,
+        total: gender.totalRaw,
+        percentage: gender.total * 100,
         updatedAt: res.updated_at
       });
     });
