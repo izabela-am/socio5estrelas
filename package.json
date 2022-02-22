@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "celebrate": "^15.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "firebase": "^9.6.6",
