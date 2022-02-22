@@ -1,5 +1,5 @@
-import { States } from "@utils/states";
-import { IStateProps } from "providers/interfaces";
+import { States } from "../utils/states";
+import { IStateProps } from "../providers/interfaces";
 import { GetProgramData } from "./GetProgramData";
 
 export class GetStateByName {

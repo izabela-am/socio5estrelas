@@ -1,6 +1,6 @@
 import { AxiosInstance, AxiosStatic } from 'axios';
 
-import { API } from '@utils/credentials';
+import { API } from '../utils/credentials';
 
 import { IGetGeneralDataResponse } from './interfaces';
 import { IRequestProvider } from './interfaces';

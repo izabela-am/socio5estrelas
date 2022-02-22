@@ -1,4 +1,4 @@
-import { States } from "@utils/states";
+import { States } from "../utils/states";
 
 export interface IRequestProvider {
   getProgramData(): Promise<IGetGeneralDataResponse>;

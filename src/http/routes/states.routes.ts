@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const statesRouter = Router();
 
-import { StateController } from "controllers/StateController";
+import { StateController } from "../../controllers/StateController";
 
 const statesController = new StateController();
 

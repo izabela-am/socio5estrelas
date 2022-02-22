@@ -5,18 +5,6 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "module": "commonjs",
-    "baseUrl": "./src",
-    "paths": {
-      "@modules/*": [
-        "modules/*"
-      ],
-      "@utils/*": [
-        "utils/*"
-      ],
-      "@shared/*": [
-        "shared/*"
-      ],
-    },
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

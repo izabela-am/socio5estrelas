@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev -r tsconfig-paths/register --transpile-only src/shared/infra/http/server.ts",
+    "dev": "ts-node-dev --transpile-only src/http/server.ts",
     "test": "jest"
   },
   "keywords": [],

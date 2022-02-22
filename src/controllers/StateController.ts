@@ -1,11 +1,11 @@
 import axios from "axios";
 import { Request, Response } from "express";
 
-import { RequestProvider } from "providers/RequestProvider";
+import { RequestProvider } from "../providers/RequestProvider";
 
-import { GetAllStates } from "useCases/GetAllStates";
-import { GetProgramData } from "useCases/GetProgramData";
-import { GetTop10States } from "useCases/GetTop10States";
+import { GetAllStates } from "../useCases/GetAllStates";
+import { GetProgramData } from "../useCases/GetProgramData";
+import { GetTop10States } from "../useCases/GetTop10States";
 
 export class StateController {
   private getAllStates: GetAllStates;

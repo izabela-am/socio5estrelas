@@ -1,5 +1,5 @@
-import { IGetGeneralDataResponse } from "providers/interfaces";
-import { IRequestProvider } from "providers/interfaces";
+import { IGetGeneralDataResponse } from "../providers/interfaces";
+import { IRequestProvider } from "../providers/interfaces";
 
 export class GetProgramData {
   constructor(private requestProvider: IRequestProvider) { }

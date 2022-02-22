@@ -5,7 +5,6 @@ import express from "express";
 import helmet from 'helmet';
 import cors from 'cors';
 
-import { errors } from './middlewares/errors';
 import { routes } from './routes/routes';
 
 export const app = express();
@@ -15,4 +14,3 @@ app.use(express.json());
 app.use(helmet());
 
 app.use(routes);
-app.use(errors);
