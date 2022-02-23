@@ -6,6 +6,6 @@ import { CitiesController } from "../../controllers/CitiesController";
 
 const citiesController = new CitiesController();
 
-citiesRouter.get('/top10', citiesController.top15);
+citiesRouter.get('/top15', citiesController.top15);
 
 export { citiesRouter };

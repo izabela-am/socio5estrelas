@@ -6,6 +6,6 @@ import { DistrictsController } from "../../controllers/DistrictsController";
 
 const districtsController = new DistrictsController();
 
-districtsRouter.get('/top10', districtsController.top15);
+districtsRouter.get('/top15', districtsController.top15);
 
 export { districtsRouter };
