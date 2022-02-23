@@ -8,5 +8,6 @@ const statesController = new StateController();
 
 statesRouter.get('/all', statesController.all);
 statesRouter.get('/top10', statesController.top10);
+statesRouter.get('/:name', statesController.getByName);
 
 export { statesRouter };
