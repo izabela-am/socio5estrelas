@@ -9,3 +9,4 @@
 - [] Docs
 - [] Add more filters
 - [] Unit tests
+- [] Data visualization
