@@ -26,10 +26,3 @@ export class GetStateByName {
     return parsedData;
   }
 }
-
-// {
-//   "name": "MINAS GERAIS",
-//     "total": 32887,
-//       "percentage": 91.58938368563233,
-//         "updatedAt": "2022-02-23T07:54:00.359Z"
-// }
